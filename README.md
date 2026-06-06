@@ -63,21 +63,23 @@ The system utilizes a multi-stage closed-loop system block to dynamically achiev
 
 ## Repository Structure
 
-
+```text
 72V-to-12V-EV-Buck-Converter/
 ├── simulation/
 │   └── BuckConverter_PowerCircuit.slx  # Core MATLAB/Simulink schematic model file
 └── docs/
     └── Powerelecminiproj.pdf           # Verified engineering project report with embedded graphs
-
+```
 
 
 ## How to Run the Simulation
 
 Clone the Repository:
 
+```text
 Bash
 git clone [https://github.com/Thevindu-ctrl/72V-to-12V-EV-Buck-Converter.git](https://github.com/Thevindu-ctrl/72V-to-12V-EV-Buck-Converter.git)
+```
 Launch MATLAB: Open MATLAB / Simulink (Version R2024b or newer recommended).
 
 Open the Model: Navigate to the simulation/ directory and open BuckConverter_PowerCircuit.slx.
