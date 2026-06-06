@@ -1,6 +1,6 @@
 # 72V-to-12V-EV-Buck-Converter (Vin 60-90)
 
-Data-driven mathematical design, closed-loop control system architecture, and dynamic transient simulation of a high-efficiency synchronous DC-DC Buck Converter tailored for Electric Vehicle (EV) accessory power rails.
+Data-driven mathematical design, closed-loop control system architecture, and dynamic transient simulation of a high-efficiency synchronous DC-DC Buck Converter desinged for Electric Vehicle (EV) accessory power rails.
 
 ---
 
@@ -63,12 +63,14 @@ The system utilizes a multi-stage closed-loop system block to dynamically achiev
 
 ## Repository Structure
 
-```text
+
 72V-to-12V-EV-Buck-Converter/
 ├── simulation/
 │   └── BuckConverter_PowerCircuit.slx  # Core MATLAB/Simulink schematic model file
 └── docs/
     └── Powerelecminiproj.pdf           # Verified engineering project report with embedded graphs
+
+
 
 ## How to Run the Simulation
 
